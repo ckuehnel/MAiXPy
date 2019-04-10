@@ -9,7 +9,7 @@ print('MAiX Show Snapshot')
 
 lcd.init()
 
-img = image.Image("/sd/example.jpg", copy_to_fb=True)
+img = image.Image("example.jpg", copy_to_fb=True)
 
 lcd.display(img)
 
